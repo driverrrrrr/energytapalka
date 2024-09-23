@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap the Coin!</title>
+    <style>
+        body { text-align: center; font-family: Helvetica, sans-serif; }
+        #coin { width: 200px; cursor: pointer; }
+        #shop { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Tap the Coin!</h1>
+    <p id="coins">Energy: 0</p>
+    <img id="coin" src="coin.png" alt="Coin" onclick="tapCoin()">
+    <div id="shop">
+        <button onclick="openShop()">Shop</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
